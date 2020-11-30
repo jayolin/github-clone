@@ -1,4 +1,4 @@
-const token = "dd3b05dcedeb354e06dc319effc77807d72427b4";
+const token = "13fd697a8e5767a5969c856a5b14732a83f1e995";
 const baseURL = "https:api.github.com/graphql";
 const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
         "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"
