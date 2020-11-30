@@ -1,4 +1,4 @@
-const token = "618384847a514241328aaf2a378e02df39d25565";
+const token = "dd3b05dcedeb354e06dc319effc77807d72427b4";
 const baseURL = "https:api.github.com/graphql";
 const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
         "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"
@@ -48,7 +48,7 @@ fetch(baseURL, {
         element.style.display = 'block';
         element.querySelector('.name').innerHTML = repository.name;
         element.querySelector('.description').innerHTML = repository.description || '';
-        element.querySelector('.date').innerHTML = `${dateUpdatedAt.getDay()} ${monthNames[dateUpdatedAt.getMonth()]}`;
+        element.querySelector('.date').innerHTML = `${dateUpdatedAt.getDate()} ${monthNames[dateUpdatedAt.getMonth()]}`;
         element.querySelector('.primary-language').innerHTML = repository.primaryLanguage && repository.primaryLanguage.name;
         element.querySelector('.color').style.backgroundColor = repository.primaryLanguage && repository.primaryLanguage.color;
 
