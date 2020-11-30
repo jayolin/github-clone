@@ -1,0 +1,59 @@
+/*gray - #eaecef, text-primary - #242a2e, accent - #f8826c, link - #0466d6, icons-inactive - #949da5, secondary-text - #59636b, 
+    border - #e1e4e8, border-bottom - #e9ecef, username-color - #232d2e
+*/
+.primary-text{
+    color: #242a2e
+}
+
+.bg-white{
+    background-color: #FFFFFF;
+}
+
+.text-blue{
+    color: #0466d6
+}
+
+.gray{
+    background-color: #e7eaec;
+}
+
+.secondary-text{
+    color: #59636b
+}
+
+.text-white{
+    color: #FFFFFF;
+}
+
+.text-secondary{
+    color: #576169;
+}
+
+.primary{
+    background-color: #242a2e;
+}
+
+
+.border-secondary{
+    border-color: #444e56;
+}
+
+.border-primary{
+    border-color: #242a2e;
+}
+
+.border-accent{
+    border-color: #f8826c;
+}
+
+.border-default{
+    border-color: #e9ecef;
+}
+
+.border-gray{
+    border-color: #e1e4e8;
+}
+
+.border-t-white{
+    border-top-color: #FFFFFF;
+}

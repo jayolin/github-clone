@@ -1,0 +1,100 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .px-sm-6{
+        padding-left: 20px;
+        padding-right: 20px
+    }
+
+
+    .sm-w-12{
+        width: 12px
+    }
+    
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .px-md-8{
+        padding-left: 40px;
+        padding-right: 40px
+    }
+    .pl-md-8{
+        padding-left: 40px;
+    }
+    .pr-md-8{
+        padding-right: 40px
+    }
+    .md-w-3{
+        flex-basis: 27%;
+    }
+    .md-row{
+        flex-direction: row;
+    }
+    .md-col{
+        flex-direction: column;
+    }
+    .-md-mt-33{
+        margin-top: -33px;
+    }
+    .md-pl-0{
+        margin-left: 0
+    }
+    .visible-md{
+        display: block;
+    }
+    .md-mr-6{
+        margin-right: 16px;
+    }
+    .md-hidden{
+        display: none;
+    }
+    .md-justify-between{
+        justify-content: space-between;
+    }
+    .md-order-1{
+        order: 1;
+    }
+    .md-order-2{
+        order: 2;
+    }
+    .md-mt-8{
+        margin-top: 24px;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .px-lg-10{
+        padding-left: 60px;
+        padding-right: 60px
+    }
+    .pl-lg-10{
+        padding-left: 60px;
+    }
+    .pr-lg-10{
+        padding-right: 60px
+    }
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .px-xl-12{
+        padding-left: 83px;
+        padding-right: 83px
+    }
+    .pl-xl-12{
+        padding-left: 83px;
+    }
+    .pr-xl-12{
+        padding-right: 83px;
+    }
+
+}
